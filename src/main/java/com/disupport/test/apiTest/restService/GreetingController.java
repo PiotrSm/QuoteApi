@@ -1,7 +1,6 @@
 package com.disupport.test.apiTest.restService;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -9,8 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
-
-import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class GreetingController {
